@@ -185,8 +185,11 @@
  */
 
 // import mongoose
+import mongoose from "mongoose";
 
 // establish connection
+await mongoose.connect("mongodb+srv://Abdulmajeed:Qaws0315@cluster0.7q1cwls.mongodb.net/labDB");
+console.log("✅ Connected to MongoDB");
 
 
 // define schema
